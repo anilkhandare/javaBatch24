@@ -383,3 +383,22 @@ Stores 3 values (previous address, data, and next address) in a single position.
 Provides the doubly-linked list implementation.	Provides a resizable array implementation.
 Whenever an element is added, prev and next address are changed.	Whenever an element is added, all elements after that position are shifted.
 To access an element, we need to iterate from the beginning to the element.	Can randomly access elements using indexes.
+
+
+## Map
+
+mobile number : 89898989
+name:anil
+address: pune
+ 
+
+88900990
+90908980
+989i0090
+vishal
+sandhya
+
+![img_25.png](img_25.png)
+![img_26.png](img_26.png)
+
+

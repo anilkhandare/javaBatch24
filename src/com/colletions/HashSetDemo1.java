@@ -1,7 +1,6 @@
 package com.colletions;
 
-import java.util.HashSet;
-import java.util.Objects;
+import java.util.*;
 
 public class HashSetDemo1
 {
@@ -19,8 +18,19 @@ public class HashSetDemo1
         students.add (new Students (2,"sandhya"));
 
         students.add (new Students (1,"Vishal"));//duplicate
-
+        Set<Students> students1= Collections.synchronizedSet (students);
         System.out.println (students);
+
+        List<Integer> list= Arrays.asList (6,53,24,1,6);
+
+        Collections.reverse (list);
+
+        for(int i:list){
+            int fre=Collections.frequency(list,i);
+            System.out.println (i+" : "+fre);
+        }
+
+        System.out.println (list);
 
 
     }
